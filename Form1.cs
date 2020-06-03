@@ -10,11 +10,19 @@ using System.Windows.Forms;
 
 namespace TrafficLights
 {
-    public partial class Form1 : Form
+    public partial class TrafficLights : Form
     {
-        public Form1()
+        public TrafficLights()
         {
             InitializeComponent();
         }
+
+        private void InitializeTrafficLight()
+        {
+            RedLight.BackColor = Color.Gray;
+            YellowLight.BackColor = Color.Gray;
+            GreenLight.BackColor = Color.Gray;
+        }
+
     }
 }
