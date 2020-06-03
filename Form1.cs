@@ -12,6 +12,10 @@ namespace TrafficLights
 {
     public partial class TrafficLights : Form
     {
+        private Timer timerSwitch;
+        
+        
+        
         public TrafficLights()
         {
             InitializeComponent();
