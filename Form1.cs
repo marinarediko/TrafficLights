@@ -16,6 +16,7 @@ namespace TrafficLights
         private bool R_to_G = true;
         private int tickCount = 0;
         private bool greenOff = true;
+        int counter;
                
         public TrafficLights()
         {
