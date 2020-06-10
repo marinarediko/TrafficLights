@@ -38,7 +38,7 @@
             // 
             // RedLight
             // 
-            this.RedLight.Location = new System.Drawing.Point(45, 25);
+            this.RedLight.Location = new System.Drawing.Point(49, 74);
             this.RedLight.Name = "RedLight";
             this.RedLight.Size = new System.Drawing.Size(100, 100);
             this.RedLight.TabIndex = 0;
@@ -46,7 +46,7 @@
             // 
             // YellowLight
             // 
-            this.YellowLight.Location = new System.Drawing.Point(45, 131);
+            this.YellowLight.Location = new System.Drawing.Point(49, 180);
             this.YellowLight.Name = "YellowLight";
             this.YellowLight.Size = new System.Drawing.Size(100, 100);
             this.YellowLight.TabIndex = 1;
@@ -54,7 +54,7 @@
             // 
             // GreenLight
             // 
-            this.GreenLight.Location = new System.Drawing.Point(45, 237);
+            this.GreenLight.Location = new System.Drawing.Point(49, 286);
             this.GreenLight.Name = "GreenLight";
             this.GreenLight.Size = new System.Drawing.Size(100, 100);
             this.GreenLight.TabIndex = 2;
@@ -64,7 +64,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(194, 366);
+            this.ClientSize = new System.Drawing.Size(194, 408);
             this.Controls.Add(this.GreenLight);
             this.Controls.Add(this.YellowLight);
             this.Controls.Add(this.RedLight);
